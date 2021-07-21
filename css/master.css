@@ -23,6 +23,11 @@ body {background: #21153b  url(../img/bgs/main-bg.jpg) top center no-repeat; bac
 
 #roadmap {background: #21153b  url(../img/bgs/bg-middle.jpg) center no-repeat; background-size: 100%;}
 .stars-bg {background: #21153b url(../img/bgs/bg-stars.jpg) top center no-repeat; background-size: 100%;}
+.box-constellation {background: #fff url(../img/bgs/bg-cons.png) top center no-repeat; border-radius: 5px; background-size: 100%;}
+.box-constellation h4 {color: #442C8C !important;}
+
+.box-constellation-a {background: #fff url(../img/bgs/bg-cons1.png) bottom center no-repeat; border-radius: 5px; background-size: 100%;}
+.box-constellation-a h4 {color:#ed7e24!important}
 
 .offcanvas-header img {max-width: 60%!important;}
 
