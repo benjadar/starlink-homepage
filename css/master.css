@@ -41,6 +41,11 @@ body {
     text-decoration: line-through;
 }
 
+.icon-list.bullet-soft-primary.bullet-bg .completed i {
+    background-color: green!important;
+    color: white!important;
+}
+
 .intro {color: #fff!important; display: block; margin-bottom: 0;}
 .intro:before, .intro:after{
     position: absolute;
@@ -134,12 +139,13 @@ body {
 
 @media (min-width: 992px) {
     .hero-banner {
-        padding-top: 65%!important;
-        padding-bottom: 15%!important;
+        padding-bottom: 45%!important;
+        padding-top: 5%!important;
     }
     body {
         background-position: top -200px;
     }
+    .navbar-dark .navbar-brand img {width: 70%!important;}
 }
 
 @media (min-width: 1440px) {
