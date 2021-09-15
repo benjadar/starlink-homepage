@@ -81,6 +81,7 @@
   font-weight: 700;
   border-radius: 30px;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 /* The Close Button */
