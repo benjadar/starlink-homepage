@@ -591,13 +591,21 @@
     });
 
     //Time countdown
-    var countDownDate = new Date("Sep 15, 2021 21:50:00 UTC").getTime();
+    // var countDownDate = new Date("Sep 24, 2021 12:30:00 AM UTC").getTime();
+    var countDownDate = 1632443400000;
     var x = setInterval(function() {
       // Get today's date and time
       var now = new Date().getTime();
 
       // Find the distance between now and the count down date
       var distance = countDownDate - now;
+
+      // If the count down is finished, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        modal.style.display = "none";
+        return;
+      }
       
       var days = Math.floor(distance / (1000 * 60 * 60 * 24));
 
@@ -612,12 +620,6 @@
 
       // Display the result in the element with id="time-count"
       document.getElementById("time-count").innerHTML = (days > 0 ? days + "d " : "") + hours + ":" + minutes + ":" + seconds;
-
-      // If the count down is finished, write some text
-      if (distance < 0) {
-        clearInterval(x);
-        // modal.style.display = "none";
-      }
     }, 1000);
   </script>
 </body>
