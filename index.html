@@ -561,7 +561,7 @@
           <div class="time-count" id="time-count"></div>
           <div><div class="text-next">UNTIL NEXT AUCTION</div></div>
           <div class="text-detail">Last round of NFTs sold for more than $1.5m in total in 24 hours</div>
-          <div class="purchase-button">PURCHASE NOW</div>
+          <a class="purchase-button" href="https://market.starltoken.com/" hidden>PURCHASE NOW</a>
         </div>
       </div>
     
@@ -582,6 +582,7 @@
   <script type="text/javascript">
     var modal = document.getElementById("countModal");
     var span = document.getElementsByClassName("close")[0];
+    var purchaseBtn = document.getElementsByClassName("purchase-button");
     span.onclick = function() {
       modal.style.display = "none";
     }
@@ -614,10 +615,9 @@
       // If the count down is finished, write some text
       if (distance < 0) {
         clearInterval(x);
-        modal.style.display = "none";
+        // modal.style.display = "none";
       }
-      }, 1000);
-
+    }, 1000);
   </script>
 </body>
 
