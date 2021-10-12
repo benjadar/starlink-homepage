@@ -140,7 +140,7 @@ body {
 @media (min-width: 992px) {
     .hero-banner {
         padding-bottom: 45%!important;
-        padding-top: 5%!important;
+        padding-top: 7%!important;
     }
     body {
         background-position: top -200px;
@@ -151,7 +151,7 @@ body {
 @media (min-width: 1440px) {
     .hero-banner {
         padding-bottom: 45%!important;
-        padding-top: 5%!important;
+        padding-top: 7%!important;
     }
     body {
         background-position: top center;
@@ -164,7 +164,7 @@ body {
 @media (min-width: 1920px) {
     .hero-banner {
         padding-bottom: 35%!important;
-        padding-top: 5%!important;
+        padding-top: 7%!important;
     }
     body {
         background-size: 90%;
