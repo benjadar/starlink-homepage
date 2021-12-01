@@ -8,7 +8,7 @@
 
 body {
     background: #21153b url(../img/bgs/main-bg.jpg) top center no-repeat;
-    background-size: 100%;
+    background-size: 80%;
 }
 
 .navbar-dark .navbar-brand img {
@@ -19,10 +19,12 @@ body {
     font-family: 'archery_black_roundedregular';
     font-size: 6rem!important;
     text-transform: uppercase;
+    font-weight: normal!important;
 }
 
 .hero-banner {
-    padding-bottom: 45%!important;
+    
+    padding-top:35%!important;
 }
 
 .bg-dark {
@@ -64,17 +66,23 @@ body {
     
 }
 
+
+#team .col-md-2 img {  filter: grayscale(1); mix-blend-mode: screen; transition: all 0.8s linear;}
+#team .col-md-2:hover img { filter: grayscale(0); mix-blend-mode: normal; }
+
 .sub-head {color: #FFAE1E!important; }
 .hero-banner .sub-head {letter-spacing: 7px!important; margin-bottom: 3em;}
 .text-shadow {text-shadow: 1px 1px 3px #372677; margin-bottom: -20px; }
 
+video {mix-blend-mode:screen;}
+
 #roadmap {
-    background: #21153b url(../img/bgs/bg-middle.jpg) center no-repeat;
+    background: #21153b url(../img/bgs/bg-middle.jpg) top center no-repeat;
     background-size: 100%;
 }
 
 .stars-bg {
-    background: #21153b url(../img/bgs/bg-stars.jpg) top center no-repeat;
+    background: #21153b url(../img/bgs/bg-stars.png) top center no-repeat;
     background-size: 100%;
 }
 
@@ -85,11 +93,45 @@ body {
 }
 
 .box-constellation h4 {
-    color: #442C8C !important;
+    color: #25173B !important;
 }
 
-.navbar .navbar-brand{padding-top:.8rem; padding-bottom:.8rem;}
+#faq { background: #21153b url(../img/bgs/faq.jpg) bottom center no-repeat; background-size: 100%;}
 
+footer {background: #170e2a;}
+
+.navbar .navbar-brand{padding-top:.8rem; padding-bottom:.8rem;}
+.banner--stick.transparent, .banner--stick:not(.navbar-dark) {background:linear-gradient(180deg, rgb(19, 5, 29) 0%, rgba(0,0,0,0) 100%);}
+.banner--stick.transparent.navbar-dark .nav-link, .banner--stick:not(.navbar-dark).navbar-dark .nav-link {color: #fff;}
+
+.card-header button {color:rgba(255, 255, 255, 0.5)!important}
+
+@media (min-width: 516px) {
+   
+     
+}
+
+@media (max-width: 991.98px) {
+    .hero-banner {padding-top:80%!important;}
+    .video-container {background:transparent url(../img/bgs/bg-sate.png) top center no-repeat; background-size:100%}
+    video {mix-blend-mode: screen; width: 100%; height: 100%;}
+    body {background-size: 200%;}
+    .navbar-dark .navbar-brand img {width: 80%;}
+    .offcanvas-nav {background: rgba(37, 23, 59, 0.5)!important;   backdrop-filter: blur(20px);}
+    .offcanvas-header img { max-width: 50%;  height: auto; }
+    .navbar.navbar-dark{background:linear-gradient(180deg, rgb(19, 5, 29) 0%, rgba(0,0,0,0) 100%);}
+    .stars-bg { background-size: 300%; background-position: top left;}
+    button.hamburger span, button.hamburger:after, button.hamburger:before {background-color: #fff!important;}
+    #roadmap {
+        background-size: 150%;
+    }
+}
+
+.box-constellation-a h4 {
+    color: #ed7e24!important
+}
+
+/*
 
 @media (min-width: 360px){
     .display-1 {font-size: 6em!important; letter-spacing: 2px!important; font-weight: normal!important;}
@@ -98,9 +140,6 @@ body {
     .navbar-dark .navbar-brand img {width: 70%!important;}
 }
 
-.box-constellation-a h4 {
-    color: #ed7e24!important
-}
 
 .offcanvas-header img {
     max-width: 60%!important;
@@ -146,6 +185,7 @@ body {
         background-position: top -200px;
     }
     .navbar-dark .navbar-brand img {width: 70%!important;}
+    
 }
 
 @media (min-width: 1440px) {
@@ -173,3 +213,4 @@ body {
         font-size: 6rem!important;
     }
 }
+*/
