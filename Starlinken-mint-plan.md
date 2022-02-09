@@ -32,6 +32,6 @@ Mint Batch: 64
 Batch Size: 492 Starlinken   
 Start and End date: _It will be announced after this announcement published._  
 Mint Price Chart: _As shown in the figure below._
-![Linear Scale of Starlinken Minting Price](.img/charts.png) 
+![Linear Scale of Starlinken Minting Price](img/charts.png) 
 
 > Please send Ethereum only from addresses able to receive Starlinken ERC-721 token (e.g. not directly from exchanges). By sending Ethereum to this address, you agree to all terms in the [StarL Metaverse Documentation](https://starl-metaverse-team.gitbook.io/starl-metaverse-documentation/)
